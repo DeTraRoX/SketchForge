@@ -82,7 +82,7 @@ export default function RegisterPage() {
               <div className="relative">
                 <User className="absolute left-4 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-slate-400 dark:text-slate-500" />
                 <input 
-                  className="input-field pl-11" 
+                  className="input-field input-icon-padding" 
                   value={name} 
                   onChange={(e) => setName(e.target.value)} 
                   type="text"
@@ -97,7 +97,7 @@ export default function RegisterPage() {
               <div className="relative">
                 <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-slate-400 dark:text-slate-500" />
                 <input 
-                  className="input-field pl-11" 
+                  className="input-field input-icon-padding" 
                   value={email} 
                   onChange={(e) => setEmail(e.target.value)} 
                   type="email" 
@@ -112,7 +112,7 @@ export default function RegisterPage() {
               <div className="relative">
                 <Lock className="absolute left-4 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-slate-400 dark:text-slate-500" />
                 <input 
-                  className="input-field pl-11" 
+                  className="input-field input-icon-padding" 
                   value={password} 
                   onChange={(e) => setPassword(e.target.value)} 
                   type="password" 
